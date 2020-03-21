@@ -1,6 +1,5 @@
 <?php 
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
-//credits: john paul maja :D <3
 
   include('google/google-confirmation.php');
   if($login_button == true){
